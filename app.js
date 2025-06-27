@@ -91,4 +91,3 @@ window.onload = () => {
   const user = localStorage.getItem('usuario');
   if (user) mostrarApp(user);
 };
-
