@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #login, #app {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #busqueda {
+    margin-bottom: 20px;
+  }
+  
+  #busqueda label {
+    margin-right: 5px;
+  }
+  
+  #busqueda input {
+    margin-right: 10px;
+    padding: 4px 8px;
+  }
+  
+  #busqueda button {
+    padding: 4px 10px;
+    background-color: #005BAC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #005BAC;
+    color: white;
+  }
+  
+  .resaltado {
+    background-color: #ffe6e6;
+  }

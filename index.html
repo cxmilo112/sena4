@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aprendices SENA CTPI</title>
+  <link rel="stylesheet" href="estilos_mejorado.css">
+</head>
+<body>
+  <div id="login">
+    <h2>Ingreso a la aplicación</h2>
+    <label>Usuario:</label>
+    <input type="text" id="usuario"><br>
+    <label>Contraseña:</label>
+    <input type="password" id="contrasena"><br>
+    <button onclick="validarLogin()">Ingresar</button>
+  </div>
+
+  <div id="app" class="hidden">
+    <h2>Bienvenido, <span id="nombreUsuario"></span></h2>
+
+    <!-- FORMULARIO DE BÚSQUEDA -->
+    <div id="busqueda">
+      <label>Ficha:</label>
+      <input type="text" id="buscarFicha">
+      <label>Programa:</label>
+      <input type="text" id="buscarPrograma">
+      <button onclick="filtrarAprendices()">Buscar</button>
+      <button onclick="cargarDatos()">Mostrar todos</button>
+    </div>
+
+    <button onclick="cerrarSesion()">Salir</button>
+
+    <table id="tablaAprendices">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Ficha</th>
+          <th>Programa</th>
+          <th>Nivel</th>
+          <th>Estado Aprendiz</th>
+          <th>Estado Ficha</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
